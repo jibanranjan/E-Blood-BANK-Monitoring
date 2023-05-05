@@ -1,0 +1,47 @@
+@CHARSET "ISO-8859-1";
+
+html{
+/* background-image:url("bg.jpg");
+ */background-color: pink;
+ background-image : url("https://www.medicalbuyer.co.in/wp-content/uploads/2019/10/Blood-Bank-Refrigerators.jpg");
+background-repeat: no-repeat;
+background-size:cover; 
+}
+h1{
+	color:black;
+	
+}
+table{
+	background-color: wheat;
+	
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff8000;
+
+}
+
+li{  float: left;
+
+
+}
+li a {
+  display: block;
+  color: white;
+  text-transform:capitalize;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ff0000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
